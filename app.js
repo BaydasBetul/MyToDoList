@@ -88,5 +88,5 @@ let monat = heute.getMonth() + 1;
 let tag = heute.getDate();
 let stunde = heute.getHours();
 let seconde = heute.getMinutes();
-const date = `${jahre}/ ${monat}/${tag} ${stunde}:${seconde}`
+const date = `${jahre}/${monat}/${tag}  ${stunde}:${seconde}`
 document.getElementById('date').innerHTML = date;
